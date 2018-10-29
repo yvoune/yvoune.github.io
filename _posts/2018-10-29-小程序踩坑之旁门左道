@@ -10,3 +10,4 @@ tags:
     - 小程序
     - 踩坑
 ---
+1.canvas绘图会生成一张在页面那里，即便设置opacity：0；display：none;都没有；解决方法是：position: absolute;top: -{{cHeight}}px;left: -{{windowWidth}}px.
